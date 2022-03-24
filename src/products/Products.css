@@ -1,0 +1,37 @@
+
+.product{
+    width: 300px;
+    height: 510px;
+    margin-left: 50px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.product img
+{
+    height: 286px;
+    width: 286px;
+    margin: 7px;
+}
+
+.product-container
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 45px;
+}
+
+.button-cart{
+    width: 100%;
+    background-color: rgb(255, 160, 122);
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.button-cart:hover{
+    background-color: orangered;
+}
